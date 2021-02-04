@@ -1,0 +1,144 @@
+body {
+	background: #f6f6fe;
+	font-family: "Montserrat", sans-serif;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 3rem auto;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title {
+	font-size: 2.2rem;
+	color: #6e708c;
+	text-align: center;
+}
+.toggle-container {
+	width: 300px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.toggle-container h1 {
+	color: #b3b5c6;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+.toggle-container-btn {
+	width: 60px;
+	height: 30px;
+	border-radius: 20px;
+	background: #7f82e1;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.toggle-container-btn .btn {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	background: white;
+	margin: 2px;
+}
+
+.card-container {
+	width: 90%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.card {
+	background: white;
+	width: 280px;
+	height: 380px;
+	border-radius: 5px;
+	box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.75);
+	margin: 1.2rem 0.1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5rem 2rem;
+}
+
+.card h2 {
+	margin-top: 20px;
+}
+
+.card h2,
+p {
+	color: #72728c;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.card span {
+	font-size: 4rem;
+	font-weight: bold;
+	color: #414559;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.card p,
+button {
+	margin: 15px 0;
+}
+.card button {
+	/* 	border: 1px solid transparent; */
+	border: none;
+	outline: none;
+	padding: 0.7rem 4.5rem;
+	color: white;
+	background: #8184e2;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: background 0.2s ease-in-out;
+}
+.card button:hover {
+	background: #b1b4e9;
+}
+
+.card-container .card:nth-child(2) {
+	background: #8d90e6;
+	padding: 3rem 2rem;
+	transform: translateY(-22px);
+}
+.card-container .card:nth-child(2) p {
+	color: white;
+}
+.card-container .card:nth-child(2) span {
+	color: white;
+}
+.card-container .card:nth-child(2) h2 {
+	color: white;
+}
+.card-container .card:nth-child(2) .line {
+	background: white;
+}
+.card-container .card:nth-child(2) button {
+	background: white;
+	color: #8184e2;
+}
+
+.line {
+	width: 90%;
+	height: 1px;
+	background: #9a9a9a;
+	border: px solid #9a9a9a;
+}
+
+.translate {
+	transform: translateX(100%);
+}
